@@ -1,7 +1,7 @@
 <template>
 <div>AxiosTest
   <button type="button" @click="getToken">使用默认用户名密码登录</button>
-  <button type="button" @click="getStaffAll">获取员工数据</button>
+  <button type="button" @click="getStaffAll">获取员工数据的的</button>
 </div>
 </template>
 
