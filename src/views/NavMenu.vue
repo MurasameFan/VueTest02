@@ -49,10 +49,10 @@
 
         <el-submenu v-for="item in menu" :index="item.id" :key="item.id">
           <template slot="title">
-            <span v-text="item.name"></span>
+            <icon name="user"/><span v-text="item.name"></span>
           </template>
           <el-menu-item-group class="over-hide" v-for="sub in item.sub" :key="sub.componentName">
-            <el-menu-item :index="sub.componentName" v-text="sub.name">
+            <icon name="copyright"/><el-menu-item :index="sub.componentName" v-text="sub.name">
             </el-menu-item>
           </el-menu-item-group>
         </el-submenu>
