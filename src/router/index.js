@@ -45,6 +45,11 @@ export default new Router({
       path: '/axiostest',
       name: 'AxiosTest',
       component: () => import('../views/AxiosTest.vue')
+    },
+    {
+      path: '/eltest',
+      name: 'ElementUITest',
+      component: () => import('../views/ElementUITest.vue')
     }
   ]
 })
